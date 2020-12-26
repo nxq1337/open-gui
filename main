@@ -1,0 +1,6 @@
+local ClickDetector = game.Workspace.Shopkeeper:WaitForChild("ClickDetector")
+ 
+ 
+ClickDetector.MouseClick:Connect(function()
+    script.Parent.Visible = true
+end)
